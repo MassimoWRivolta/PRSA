@@ -8,9 +8,9 @@ Each Matlab function reports an example that can be run immediately. just type:
 
 Script files (s_*.m) can be also run immediately:
 - s_filterResponse.m computes the frequency response of the average capacity for various settings of T and s parameters.
-![Frequency response](https://homes.di.unimi.it/rivolta/github/PRSA_fig1.png)
+![Frequency response](https://homes.di.unimi.it/rivolta/github/PRSA_fig1.png?)
 - s_UCO.m generates a random RR series under periodic umbilical cord occlusion (UCO)
-![RR response to UCO](https://homes.di.unimi.it/rivolta/github/PRSA_fig2.png)
+![RR response to UCO](https://homes.di.unimi.it/rivolta/github/PRSA_fig2.png?)
 
 When using this resource, please cite the original publication (or one of the relevant below):
 
