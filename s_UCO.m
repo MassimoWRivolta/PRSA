@@ -37,9 +37,39 @@ plot(t, RR, 'LineWidth', 1.2);
 xlabel('Time (s)', 'FontSize', 12);
 ylabel('RR (ms)', 'FontSize', 12);
 hold on
-plot(t(anchorsDC), RR(anchorsDC), 'r*');
-plot(t(anchorsAC), RR(anchorsAC), 'g*');
-legend({'RR', 'Anchors DC', 'Anchors AC'}, 'FontSize', 12)
+
+% Draw growing segments.
+bAnchorsDC = zeros(size(RR));
+bAnchorsDC(anchorsDC) = 1;
+bAnchorsDC = bAnchorsDC(:);
+s = find(bAnchorsDC & [1 ~bAnchorsDC(1:end-1)']');
+e = find(bAnchorsDC & [~bAnchorsDC(2:end)' 1]');
+intervalsDC = [s e];
+RRDC = nan(size(RR));
+for ii = 1:size(intervalsDC, 1)
+    RRDC(intervalsDC(ii, 1):intervalsDC(ii, 2)) = RR(intervalsDC(ii, 1):intervalsDC(ii, 2));   
+end
+plot(t, RRDC, 'r', 'LineWidth', 1.2)
+
+bAnchorsAC = zeros(size(RR));
+bAnchorsAC(anchorsAC) = 1;
+bAnchorsAC = bAnchorsAC(:);
+s = find(bAnchorsAC & [1 ~bAnchorsAC(1:end-1)']');
+e = find(bAnchorsAC & [~bAnchorsAC(2:end)' 1]');
+intervalsAC = [s e];
+RRAC = nan(size(RR));
+for ii = 1:size(intervalsAC, 1)
+    RRAC(intervalsAC(ii, 1):intervalsAC(ii, 2)) = RR(intervalsAC(ii, 1):intervalsAC(ii, 2));      
+end
+plot(t, RRAC, 'g', 'LineWidth', 1.2)
+
+% Draw anchor points.
+plot(t(anchorsDC), RR(anchorsDC), 'r.')
+plot(t(anchorsAC), RR(anchorsAC), 'g.')
+
+% Draw legend.
+legend({'RR', 'DC', 'AC'}, 'FontSize', 12);
+
 h = get(gcf,'CurrentAxes');
 set(h,'FontSize',12);
 

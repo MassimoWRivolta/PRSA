@@ -1,15 +1,18 @@
 # Phase-Rectified Signal Averaging (PRSA)
 This repository contains a Matlab source code to implement the Phase-Rectified Signal Averaging (PRSA) technique in both numerical and theoretical forms.
 
-Each Matlab function reports an example that can be run immediately. just type:
+Each Matlab function reports an example that can be run immediately. Just type:
 - help function_name
 - select the example listed in the EXAMPLE section
 - run the code in the console
 
 Script files (s_*.m) can be also run immediately:
 - s_filterResponse.m computes the frequency response of the average capacity for various settings of T and s parameters.
+
 ![Frequency response](https://homes.di.unimi.it/rivolta/github/PRSA_fig1.png?)
+
 - s_UCO.m generates a random RR series under periodic umbilical cord occlusion (UCO)
+
 ![RR response to UCO](https://homes.di.unimi.it/rivolta/github/PRSA_fig2.png?)
 
 When using this resource, please cite the original publication (or one of the relevant below):
@@ -20,8 +23,8 @@ When using this resource, please cite the original publication (or one of the re
 		journal = {IEEE Trans Biomed Eng},
 		volume={XX}, 
 		number={XX}, 
-		pages={XX-XX}, 
-		doi={10.1109/TBME.2019.2932808},}
+		pages={XX--XX}, 
+		doi={10.1109/TBME.2019.2932808}}
 		
 Other relevant publications are:
 - T. Stampalija, D. Casati, L. Monasta, R. Sassi, M. W. Rivolta, M. L. Muggiasca, A. Bauer and E. Ferrazzi, "Brain sparing effect in growth-restricted fetuses is associated with decreased cardiac acceleration and deceleration capacities: a case-control study", BJOG, vol. 123, pp. 1947–1954, 2016. ISSN: 1471-0528. DOI:10.1111/1471-0528.13607
