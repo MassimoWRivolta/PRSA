@@ -18,13 +18,15 @@ Script files (s_*.m) can be also run immediately:
 When using this resource, please cite the original publication (or one of the relevant below):
 
 	@Article{RivoltaTBME2019,
-		author = {Rivolta, M.W. and Stampalija, T. and Frash, M. G. and Sassi, R.},
+		author = {Rivolta, M.W. and Stampalija, T. and Frasch, M. G. and Sassi, R.},
 		title = {Theoretical Value of Deceleration Capacity Points to Deceleration Reserve of Fetal Heart Rate},
 		journal = {IEEE Trans Biomed Eng},
 		volume={XX}, 
 		number={XX}, 
 		pages={XX--XX}, 
 		doi={10.1109/TBME.2019.2932808}}
+		
+The link to the publication is the following: https://www.ncbi.nlm.nih.gov/pubmed/31395532
 		
 Other relevant publications are:
 - T. Stampalija, D. Casati, L. Monasta, R. Sassi, M. W. Rivolta, M. L. Muggiasca, A. Bauer and E. Ferrazzi, "Brain sparing effect in growth-restricted fetuses is associated with decreased cardiac acceleration and deceleration capacities: a case-control study", BJOG, vol. 123, pp. 1947–1954, 2016. ISSN: 1471-0528. DOI:10.1111/1471-0528.13607
