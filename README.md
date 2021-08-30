@@ -1,5 +1,5 @@
 # Phase-Rectified Signal Averaging (PRSA)
-This repository contains a Matlab source code to implement the Phase-Rectified Signal Averaging (PRSA) technique in both numerical and theoretical forms.
+This repository contains a Matlab implementation of the Phase-Rectified Signal Averaging (PRSA) technique in both numerical and theoretical forms.
 
 Each Matlab function reports an example that can be run immediately. Just type:
 - help function_name
@@ -18,13 +18,14 @@ Script files (s_*.m) can be also run immediately:
 When using this resource, please cite the original publication (or one of the relevant below):
 
 	@Article{RivoltaTBME2019,
-		author = {Rivolta, M.W. and Stampalija, T. and Frasch, M. G. and Sassi, R.},
+		author = {Rivolta, M. W. and Stampalija, T. and Frasch, M. G. and Sassi, R.},
 		title = {Theoretical Value of Deceleration Capacity Points to Deceleration Reserve of Fetal Heart Rate},
 		journal = {IEEE Trans Biomed Eng},
-		volume={XX}, 
-		number={XX}, 
-		pages={XX--XX}, 
-		doi={10.1109/TBME.2019.2932808}}
+		volume={67}, 
+		number={4}, 
+		pages={1176-1185}, 
+		doi={10.1109/TBME.2019.2932808}
+		}
 		
 The link to the publication is the following: https://www.ncbi.nlm.nih.gov/pubmed/31395532
 		
@@ -35,4 +36,4 @@ Other relevant publications are:
 - M. W. Rivolta, T. Stampalija, D. Casati, E. Ferrazzi, A. Bauer and R. Sassi, "A Methodological Assessment of Phase-Rectified Signal Averaging through Simulated Beat-to-Beat Interval Time Series", Comput Cardiol, vol. 41, pp. 601-604, 2014. ISSN: 2325-8861. ISBN: 978-1-4799-4346-3
 		
 Massimo Walter Rivolta, PhD
-[https://homes.di.unimi.it/rivolta/index.php)
+(https://homes.di.unimi.it/rivolta/)
